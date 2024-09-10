@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/03 10:56:24.000.006,=C:\Users\siega\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/03 10:58:13.000.166,=C:\Users\siega\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/03 10:59:27.000.872,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\uPrincipal.pas=C:\Users\siega\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/03 10:59:27.000.872,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\uPrincipal.dfm=C:\Users\siega\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/09/03 10:59:47.000.710,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\TelaCadastros.dproj=C:\Users\siega\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/09/03 11:00:02.000.284,=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit2.pas</Transaction>
+    <Transaction>2024/09/03 11:02:36.000.904,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\uCadastro.dfm=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit2.dfm</Transaction>
+    <Transaction>2024/09/03 11:02:36.000.904,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\uCadastro.pas=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit2.pas</Transaction>
+    <Transaction>2024/09/03 11:02:42.000.287,=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit3.pas</Transaction>
+    <Transaction>2024/09/03 11:03:27.000.433,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\uListaCadastro.dfm=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit3.dfm</Transaction>
+    <Transaction>2024/09/03 11:03:27.000.433,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\uListaCadastro.pas=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit3.pas</Transaction>
+    <Transaction>2024/09/03 11:04:20.000.473,=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit1.pas</Transaction>
+    <Transaction>2024/09/03 11:06:15.000.936,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\uDM.pas=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit1.pas</Transaction>
+    <Transaction>2024/09/03 11:06:15.000.936,C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\uDM.dfm=C:\Users\siega\OneDrive\CURSO_DELPHI\ProjetoFinal\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

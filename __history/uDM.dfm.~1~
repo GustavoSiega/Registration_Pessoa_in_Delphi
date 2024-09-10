@@ -1,0 +1,27 @@
+object DM: TDM
+  Height = 750
+  Width = 1000
+  PixelsPerInch = 120
+  object conn: TFDConnection
+    Params.Strings = (
+      'User_Name=root'
+      'Database=cadastrogustavo'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 288
+    Top = 232
+  end
+  object tbCadaPess: TFDTable
+    Active = True
+    IndexFieldNames = 'codi_pess'
+    Connection = conn
+    TableName = 'cadastrogustavo.cadapess'
+    Left = 464
+    Top = 248
+  end
+  object ds: TDataSource
+    Left = 400
+    Top = 416
+  end
+end

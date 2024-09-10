@@ -1,0 +1,25 @@
+object xa: Txa
+  Height = 750
+  Width = 1000
+  PixelsPerInch = 120
+  object conn: TFDConnection
+    Params.Strings = (
+      'User_Name=root'
+      'Database=cadastrogustavo'
+      'DriverID=MySQL')
+    LoginPrompt = False
+    Left = 328
+    Top = 240
+  end
+  object tbCadaPess: TFDTable
+    IndexFieldNames = 'codi_pess'
+    Connection = conn
+    TableName = 'cadastrogustavo.cadapess'
+    Left = 464
+    Top = 288
+  end
+  object ds: TDataSource
+    Left = 368
+    Top = 368
+  end
+end

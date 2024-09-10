@@ -1,0 +1,43 @@
+unit uListaCadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Grids,
+  Vcl.DBGrids;
+
+type
+  TFrmListaDosCadastros = class(TForm)
+    lblLista: TLabel;
+    dbGridLista: TDBGrid;
+    btnEditar: TButton;
+    btnDeletar: TButton;
+    procedure btnDeletarClick(Sender: TObject);
+    procedure btnEditarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmListaDosCadastros: TFrmListaDosCadastros;
+
+implementation
+
+{$R *.dfm}
+
+uses uCadastro, uDM, uPrincipal;
+
+procedure TFrmListaDosCadastros.btnDeletarClick(Sender: TObject);
+begin
+  xa.tbCadaPess.Delete;
+end;
+
+procedure TFrmListaDosCadastros.btnEditarClick(Sender: TObject);
+begin
+  xa.tbCadaPess.Edit;
+end;
+
+end.
