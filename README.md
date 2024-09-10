@@ -13,15 +13,16 @@ O projeto tem como objetivo desenvolver uma tela de cadastro de pessoas utilizan
 - Conexão com o Banco de Dados: Utiliza componentes Delphi, como TFDConnection, TFDTable, TDataSource, para conectar-se ao banco de dados. 
  
 ### Lógica de Aplicação:  
-- Validação de Dados: Verifica se todos os campos obrigatórios foram preenchidos e se os dados inseridos estão no formato correto antes de salvar. Processamento de Dados: Inclui a lógica para inserir, atualizar e validar dados no banco de dados. 
+- Validação de Dados: Verifica se todos os campos obrigatórios foram preenchidos e se os dados inseridos estão no formato correto antes de salvar.
+- Processamento de Dados: Inclui a lógica para inserir, atualizar e validar dados no banco de dados. 
  
 ### Tratamento de Erros:  
-- Mensagens de Erro: Exibe mensagens de erro apropriadas caso ocorra algum problema com a validação dos dados ou com a conexão ao banco de dados. Manuseio de Exceções: Implementa tratamento de exceções para garantir que a aplicação não trave em caso de erros inesperados. 
+- Mensagens de Erro: Exibe mensagens de erro apropriadas caso ocorra algum problema com a validação dos dados ou com a conexão ao banco de dados.
+- Manuseio de Exceções: Implementa tratamento de exceções para garantir que a aplicação não trave em caso de erros inesperados. 
  
 ### Tecnologias Utilizadas:  
-- Delphi RAD Studio: Ambiente de desenvolvimento para criar a interface gráfica e a lógica de aplicação. 
- 
-### Banco de Dados Relacional: Pode ser SQL Server, MySQL, PostgreSQL, ou outro sistema de gerenciamento de banco de dados compatível. 
+- Delphi RAD Studio: Ambiente de desenvolvimento para criar a interface gráfica e a lógica de aplicação.  
+- Banco de Dados Relacional: Pode ser SQL Server, MySQL, PostgreSQL, ou outro sistema de gerenciamento de banco de dados compatível. 
 - Componentes Delphi: TEdit, TDBEtid, TLabel, TButton, TADOConnection, TDataSource, TDataSet, etc. 
  
 ### Benefícios do Projeto:  
